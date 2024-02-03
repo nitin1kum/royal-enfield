@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/royal-enfield/static/css/main.f6831ddd.css",
-    "main.js": "/royal-enfield/static/js/main.485d49d7.js",
-    "static/js/787.71bfd159.chunk.js": "/royal-enfield/static/js/787.71bfd159.chunk.js",
+    "main.js": "/royal-enfield/static/js/main.1a6ea097.js",
+    "static/js/787.c1b621b0.chunk.js": "/royal-enfield/static/js/787.c1b621b0.chunk.js",
     "index.html": "/royal-enfield/index.html",
     "main.f6831ddd.css.map": "/royal-enfield/static/css/main.f6831ddd.css.map",
-    "main.485d49d7.js.map": "/royal-enfield/static/js/main.485d49d7.js.map",
-    "787.71bfd159.chunk.js.map": "/royal-enfield/static/js/787.71bfd159.chunk.js.map"
+    "main.1a6ea097.js.map": "/royal-enfield/static/js/main.1a6ea097.js.map",
+    "787.c1b621b0.chunk.js.map": "/royal-enfield/static/js/787.c1b621b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6831ddd.css",
-    "static/js/main.485d49d7.js"
+    "static/js/main.1a6ea097.js"
   ]
 }

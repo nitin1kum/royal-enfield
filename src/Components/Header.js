@@ -65,7 +65,7 @@ const Header = () => {
     <>
       <div className={!showNav ? (show ? "header-container bg-nav-bg fixed top-0 z-50 w-full transition-all duration-700 delay-100 ease-in-out h-fit text-base text-white flex justify-between items-center py-3 xl:py-6 sm:py-3 px-3 sm:px-3 lg:px-6 font-medium" : "header-container sm:px-3 py-3 lg:px-6 transition-all duration-700 delay-100 ease-in-out items-center bg-nav-bg fixed -top-24 z-50 w-full  h-fit text-base text-white flex justify-between px-3 font-medium"): "header-container bg-nav-bg fixed top-0 z-50 w-full transition-all duration-700 delay-100 ease-in-out h-fit text-base text-white flex justify-between items-center py-3 xl:py-6 sm:py-3 px-3 sm:px-3 lg:px-6 font-medium"}>
         <Link className="logo xl:h-6 sm:h-3 lg:h-5 h-3">
-          <img className="h-full w-full object-contain" src="/images/logo.svg" alt="" />
+          <img className="h-full w-full object-contain" src="images/logo.svg" alt="" />
         </Link>
         <div className="header-items hidden sm:block">
           <ul className="flex xl:gap-6 lg:gap-3 sm:gap-2 items-center">

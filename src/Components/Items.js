@@ -46,7 +46,7 @@ const Items = (props) => {
     <div ref={scroll}>
       <div className={fixed ? show ? "sec3-header fixed flex-col sm:flex-row sm:bg-zinc-900 sm:top-[72px] top-[49px] w-full text-white  transition-all duration-700 delay-100 ease-in-out sm:py-5 flex sm:gap-6 sm:px-6 items-center z-10" : "sec3-header w-full flex-col sm:flex-row  transition-all duration-700 delay-100 sm:bg-zinc-900 ease-in-out fixed top-0 text-white  sm:py-5 flex sm:gap-6 sm:px-6 items-center z-10" : "sec3-header w-full flex-col sm:flex-row sm:bg-zinc-900 transition-all duration-700 delay-100 ease-in-out text-white  sm:py-5 flex sm:gap-6 sm:px-6 items-center"}>
         <div className={showLogo ? "w-52 transition-all bg-zinc-900 hidden sm:block duration-700 ease-in-out overflow-hidden" : "sec3-logo w-0 hidden sm:block transition-all bg-zinc-900 duration-700 ease-in-out overflow-hidden"}>
-          <img className='w-52 h-7 object-contain' src="/images/logo.svg" alt="" />
+          <img className='w-52 h-7 object-contain' src="images/logo.svg" alt="" />
         </div>
         <h1 className='text-2xl bg-black sm:bg-zinc-900 sm:bg-none py-2 sm:py-0 sm:px-0 px-6 text-center w-full sm:w-min font-bold'>Motorcycles</h1>
         <ul className='flex bg-zinc-900  items-center py-2 sm:py-0 sm:px-0 px-0 text-sm sm:text-base w-full overflow-x-scroll scroll overflow-y-hidden'>

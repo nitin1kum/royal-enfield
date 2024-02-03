@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,html{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: gray;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(44, 44, 44);
+}
+/* Header */
+.header-container{
+    font-size: 15px;
+}
+.header-container .drop-down:hover i {
+  transform: rotate(180deg);
+}
+.header-container i {
+  transition: all 500ms ease-in-out;
+}
+.drop-down:hover ul {
+  display: block;
+}
+.header-container a:hover {
+  color: #d1291c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.log-in{
+  background-image: url("https://www.royalenfield.com/content/dam/royal-enfield/india/login/login-banner.webp");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.insta-logo{
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.swiper-pagination-bullet{
+  background: black !important;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: red !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scroll::-webkit-scrollbar{
+  display: none;
 }

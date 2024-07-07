@@ -2,7 +2,7 @@ import React from 'react'
 
 const Languages = () => {
   return (
-    <div className='w-full h-screen overflow-y-scroll bg-black px-2 sm:py-16 sm:px-6 lg:pt-20 pt-20'>
+    <div className='w-full grid place-content-center h-screen overflow-y-scroll bg-black px-2 sm:py-16 sm:px-6'>
         <h1 className='sm:text-3xl font-bold text-white mb-16 w-full text-xl text-center'>Select Region</h1>
         <div className='h-fit w-full sm:w-[90%] lg:w-[70%] m-auto justify-center flex flex-wrap items-center gap-5 gap-y-20 sm:gap-10'>
             <div className='h-fit w-[45%] sm:w-[30%] lg:w-[20%]'>

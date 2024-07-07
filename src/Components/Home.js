@@ -130,13 +130,13 @@ const Home = () => {
         </div>
       </div>
       <div className="third-section">
-        {itemsData.map((data) => {
+        {itemsData.map((data,index) => {
           return (
-            <Items data={data} />
+            <Items data={data} key={index} id={index} />
           )
         })}
       </div>
-      <div className="fourt-section">
+      <div className="fourth-section">
         <div className='bg-zinc-900 py-4 text-center text-white font-semibold text-2xl'>Popular Tags</div>
         <div className="tags-container relative">
         <div className="tag-navigation-button ">

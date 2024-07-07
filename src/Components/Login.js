@@ -9,8 +9,8 @@ const Login = () => {
   const control2 = useAnimation();
   return (
     <div className="log-in ">
-      <div className="lg:w-1/2 sm:w-3/4 h-screen overflow-y-scroll relative scroll m-auto text-white text-center pt-12 p-4">
-        <h2 className="sm:text-2xl text-base font-bold my-2 sm:my-4">
+      <div className="lg:w-1/2 sm:w-3/4 h-screen overflow-y-scroll gird place-content-center relative scroll m-auto text-white text-cente p-4">
+        <h2 className="sm:text-2xl text-base text-center font-bold my-2 sm:my-4">
           Log in to your Royal Enfiled account
         </h2>
         <form
@@ -43,7 +43,7 @@ const Login = () => {
           </Link>
         </form>
 
-        <h2 className="sm:text-2xl text-xl font-bold sm:my-6 my-3 sm:pt-6 ">
+        <h2 className="sm:text-2xl text-xl font-bold text-center sm:my-6 my-3 sm:pt-6 ">
           New to royalenfield.com?
         </h2>
         <div
@@ -60,7 +60,7 @@ const Login = () => {
             <IoChevronForwardOutline />
           </motion.i>
         </div>
-        <h2 className="text-2xl font-bold sm:my-6 my-3 sm:pt-6">Or sign in via</h2>
+        <h2 className="text-2xl font-bold sm:my-6 my-3 text-center sm:pt-6">Or sign in via</h2>
         <div className="grid sm:grid-cols-2 gap-3 w-full text-center sm:w-fit m-auto">
           <div
             className=" bg-fb-background relative text-center flex w-full justify-center sm:w-fit items-center gap-2 text-sm m-auto  select-none p-1.5 px-2 text-white  placeholder:text-white font-semibold"
